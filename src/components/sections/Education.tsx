@@ -31,16 +31,15 @@ export default function Education() {
                   <Image src="/assets/logos/isu.png" alt="ISU Logo" width={48} height={48} />
                 </div>
                 <div className="education-info">
-                  <h3 className="degree">Bachelor of Science in Computer Science</h3>
-                  <h4 className="university-name">Iowa State University</h4>
-                  <span className="duration"><i className="far fa-calendar-alt"></i> Aug 2022 - May 2026</span>
-                  <p className="location"><i className="fas fa-map-marker-alt"></i> Ames, IA</p>
+                  <h3 className="degree">Master of Computer Applications (MCA)</h3>
+                  <h4 className="university-name">VIVA Institute of Technology</h4>
+                  <span className="duration"><i className="far fa-calendar-alt"></i> Completed</span>
+                  <p className="location"><i className="fas fa-map-marker-alt"></i> Maharashtra, India</p>
                 </div>
               </div>
               <div className="education-description">
                 <p>
-                  Senior standing with a strong focus on Artificial Intelligence, Full-Stack Development, and Systems Architecture.
-                  Consistently applying coursework to real-world co-ops and deploying production applications.
+                  Completed a Master of Computer Applications with a focus on software development and practical technology solutions.
                 </p>
               </div>
             </div>
@@ -61,16 +60,15 @@ export default function Education() {
                   <Image src="/assets/logos/njc.png" alt="NJC Logo" width={48} height={48} />
                 </div>
                 <div className="education-info">
-                  <h3 className="degree">Intermediate Education (Class XI - XII)</h3>
-                  <h4 className="university-name">Narayana Junior College</h4>
-                  <span className="duration"><i className="far fa-calendar-alt"></i> Graduated 2022</span>
-                  <p className="location"><i className="fas fa-map-marker-alt"></i> India</p>
+                  <h3 className="degree">Bachelor&apos;s Degree in B.Com</h3>
+                  <h4 className="university-name">Purvanchal University, Jaunpur</h4>
+                  <span className="duration"><i className="far fa-calendar-alt"></i> Completed</span>
+                  <p className="location"><i className="fas fa-map-marker-alt"></i> Uttar Pradesh, India</p>
                 </div>
               </div>
               <div className="education-description">
                 <p>
-                  Completed high school focusing on Mathematics, Physics, and Chemistry. 
-                  Graduated with an outstanding academic record, achieving a score of 94.9%.
+                  Bachelor&apos;s degree in Commerce from Purvanchal University, Jaunpur, Uttar Pradesh.
                 </p>
               </div>
             </div>
@@ -93,16 +91,15 @@ export default function Education() {
                   <Image src="/assets/logos/jgs.png" alt="JGS Logo" width={48} height={48} />
                 </div>
                 <div className="education-info">
-                  <h3 className="degree">Class 1 to X</h3>
-                  <h4 className="university-name">Johnson Grammar School</h4>
-                  <span className="duration"><i className="far fa-calendar-alt"></i> Graduated 2020</span>
+                  <h3 className="degree">Continuous Professional Learning</h3>
+                  <h4 className="university-name">Software Engineering</h4>
+                  <span className="duration"><i className="far fa-calendar-alt"></i> Present</span>
                   <p className="location"><i className="fas fa-map-marker-alt"></i> India</p>
                 </div>
               </div>
               <div className="education-description">
                 <p>
-                  Completed secondary education through the rigorous curriculum.
-                  Achieved a perfect Grade Point Average of 10/10.
+                  Continuously learning and experimenting with modern web, mobile, backend, cloud, and product technologies.
                 </p>
               </div>
             </div>

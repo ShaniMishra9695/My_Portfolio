@@ -7,31 +7,29 @@ import Image from "next/image";
 // Data with a "keyBullets" field (top 2) and "moreBullets" (the rest)
 const JOBS = [
   {
-    id: "lane",
+    id: "gharwale",
     icon: "🚀",
     logo: "/assets/logos/lane.png",
-    logoAlt: "LANE Trailer Mfg.",
-    title: "Software Engineer — AI Systems & Automation",
-    company: "LANE Trailer Mfg.",
-    duration: "Jan 2026 — Present",
-    location: "IA, USA",
+    logoAlt: "Gharwale.com",
+    title: "Junior Software Engineer & Team Lead",
+    company: "Gharwale.com",
+    duration: "July 2025 — Present",
+    location: "Virar, Maharashtra, India",
     links: [
-      { text: "Live Website", url: "https://www.lanetrailers.com" },
-      { text: "Live App", url: "https://production-management-murex.vercel.app" },
-      { text: "GitHub", url: "https://github.com/koushik1133/production-management" }
+      { text: "Live Website", url: "https://gharwale.com" }
     ],
     keyBullets: [
-      "Architected real-time production management system with Kanban scheduling and multi-department dashboards, boosting shop efficiency by 40%.",
-      "Developed n8n workflow automation using Claude/Gemini APIs, eliminating 60%+ of repetitive processes.",
+      "Develop modern React-based web applications and responsive user interfaces for real-world business requirements.",
+      "Build and maintain Python-based backend services, APIs, authentication, business logic, and integrations.",
     ],
     moreBullets: [
-      "Led cloud migration of paper-based spec sheets and dealer records to Supabase, building model-aware spec sheet engine.",
-      "Built quote-to-production automation with RBAC and real-time Undo/Redo state management.",
-      "Engineered Python and iLogic automation for Autodesk Inventor workflows, reducing manual engineering time by 80%.",
-      "Deployed RAG retrieval networks with Pinecone enabling autonomous agent queries and context-aware business intelligence.",
-      "Built and shipped dealer locator page and extended platform with reporting tools and cloud-based file storage.",
+      "Develop cross-platform mobile applications using React Native, including real-estate telecalling workflows.",
+      "Manage databases, deployment workflows, cloud infrastructure, and AWS S3-based application assets.",
+      "Contribute to product architecture and technical decision-making across web and mobile products.",
+      "Coordinate with UI/UX designers, frontend developers, backend developers, and other stakeholders.",
+      "Debug production issues and translate business requirements into practical technical solutions.",
     ],
-    tags: ["React", "Node.js", "Python", "Supabase", "n8n", "Pinecone RAG", "Gemini & Claude"],
+    tags: ["React", "React Native", "Python", "APIs", "AWS S3", "Databases", "Team Leadership"],
   },
   {
     id: "trailer",

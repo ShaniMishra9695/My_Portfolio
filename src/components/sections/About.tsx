@@ -24,13 +24,13 @@ export default function About() {
           <div className="about-text">
             <h3>My Journey</h3>
             <p>
-              I am a Senior Computer Science student at Iowa State University (graduating May 2026), specializing in Full-Stack development, AI/Agentic systems, and cloud automation. My journey in tech began with a deep curiosity for building scalable solutions that bridge the gap between software engineering and artificial intelligence.
+              I’m Shani Mishra, a Software Engineer and Technology Team Lead passionate about turning ideas into reliable, scalable, and meaningful digital products.
             </p>
             <p>
-              Currently, I am working as a Software Engineer at LANE Trailer Mfg., where I engineer enterprise production management platforms and implement AI agents using Google Gemini and Claude. By integrating AI-driven workflows, I've successfully optimized manual processes and transformed operational capabilities.
+              I work across the full software development lifecycle — from understanding business requirements and designing technical approaches to developing, deploying, and continuously improving production-ready applications.
             </p>
             <p>
-              Beyond the enterprise, I build and deploy independent products ranging from B2B e-commerce platforms (Shopify) to end-to-end WhatsApp automation tools for local businesses. I thrive at the intersection of modern web development and AI, constantly experimenting with multi-LLM architectures, RAG pipelines, and agentic workflows.
+              My experience spans full-stack web development, mobile applications, backend engineering, cloud deployment, APIs, database-driven systems, and modern frontend experiences. I have contributed to Gharwale.com and developed InhouseCaller, a React Native application for real-estate telecalling operations.
             </p>
             <div className="about-details">
               <div className="detail-row">
@@ -38,14 +38,14 @@ export default function About() {
                   <span className="detail-icon"><i className="fas fa-code"></i></span>
                   <div className="detail-content">
                     <h4>Full Stack Development</h4>
-                    <p>Building responsive web apps with Next.js, React, and Node.js</p>
+                    <p>Building modern web and mobile applications with React, React Native, and scalable APIs</p>
                   </div>
                 </div>
                 <div className="detail-item">
                   <span className="detail-icon"><i className="fas fa-robot"></i></span>
                   <div className="detail-content">
                     <h4>AI Automation</h4>
-                    <p>Deploying autonomous agents and multi-LLM pipelines</p>
+                    <p>Turning business requirements into reliable, user-focused digital products</p>
                   </div>
                 </div>
               </div>
@@ -54,14 +54,14 @@ export default function About() {
                   <span className="detail-icon"><i className="fas fa-database"></i></span>
                   <div className="detail-content">
                     <h4>Cloud & Backend</h4>
-                    <p>Architecting scalable solutions with AWS, Supabase, and PostgreSQL</p>
+                    <p>Building backend services, APIs, database systems, and cloud deployments</p>
                   </div>
                 </div>
                 <div className="detail-item">
                   <span className="detail-icon"><i className="fas fa-industry"></i></span>
                   <div className="detail-content">
                     <h4>Enterprise Operations</h4>
-                    <p>Delivering digital transformation for manufacturing and B2B clients</p>
+                    <p>Coordinating designers, developers, stakeholders, and technical delivery</p>
                   </div>
                 </div>
               </div>

@@ -14,7 +14,7 @@ export default function Terminal() {
   const [historyIndex, setHistoryIndex] = useState(-1);
   const [isLoading, setIsLoading] = useState(false);
   const [lines, setLines] = useState<TerminalLine[]>([
-    { text: "System Initialized. Welcome to Koushik's Sandbox Console.", type: "system" },
+    { text: "System Initialized. Welcome to Shani's Sandbox Console.", type: "system" },
     { text: "Type 'help' to see list of operational commands, or use the shortcuts below.", type: "system" }
   ]);
 
@@ -87,7 +87,7 @@ export default function Terminal() {
         case "about":
           setLines([
             ...currentLines,
-            { text: "================ KOUSHIK GOUD SHAGANTI ================", type: "system" },
+            { text: "================ SHANI MISHRA ================", type: "system" },
             { text: "Role: Software Engineer & AI Automation Expert", type: "output" },
             { text: "Standing: Senior, Computer Science @ Iowa State University (Graduating May 2026)", type: "output" },
             { text: "Bio: Koushik thrives at the intersection of full-stack development, agentic automation, and distributed systems. He designs scalable production systems and leverages LLMs for intelligent workspace automation.", type: "output" }
@@ -143,10 +143,10 @@ export default function Terminal() {
           setLines([
             ...currentLines,
             { text: "================ CONNECT SYSTEM ================", type: "system" },
-            { text: "📧 Email: koushik9924@gmail.com", type: "output" },
+            { text: "📧 Email: shanimishra284@gmail.com", type: "output" },
             { text: "📍 Location: Ames, IA", type: "output" },
-            { text: "🔗 GitHub: github.com/koushik1133", type: "output" },
-            { text: "🔗 LinkedIn: linkedin.com/in/koushik-shaganti", type: "output" }
+            { text: "🔗 GitHub: github.com/ShaniMishra9695", type: "output" },
+            { text: "🔗 LinkedIn: linkedin.com/in/shani-mishra-28838b25a", type: "output" }
           ]);
           setIsLoading(false);
           break;
@@ -273,7 +273,7 @@ export default function Terminal() {
             <span className="dot dot-yellow"></span>
             <span className="dot dot-green"></span>
           </div>
-          <span className="terminal-status font-mono">KOUSHIK-OS • ONLINE</span>
+          <span className="terminal-status font-mono">SHANI-OS • ONLINE</span>
         </div>
 
         <div className="chat-terminal-body" ref={bodyRef}>

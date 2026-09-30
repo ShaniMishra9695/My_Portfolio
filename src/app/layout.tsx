@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Koushik Goud Shaganti | Portfolio",
-  description: "Software Engineer & AI Automation Expert specializing in scalable web platforms and AI-driven solutions.",
+  title: "Shani Mishra | Portfolio",
+  description: "Software Engineer, Full-Stack Developer, and Technology Team Lead building scalable digital products.",
   other: {
     // Explicit viewport prevents mobile zoom issues
     viewport: "width=device-width, initial-scale=1, viewport-fit=cover",

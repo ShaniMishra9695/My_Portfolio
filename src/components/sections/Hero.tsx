@@ -51,9 +51,9 @@ export default function Hero() {
 
             {/* Headline */}
             <motion.h1 className="hero-title" variants={itemVariants}>
-              Koushik Goud Shaganti
+              Shani Mishra
               <br />
-              <span className="hero-gradient" style={{ fontSize: '0.7em', fontWeight: 500 }}>Software Engineer</span>
+              <span className="hero-gradient" style={{ fontSize: '0.7em', fontWeight: 500 }}>Software Engineer | Full-Stack Developer | Team Lead</span>
             </motion.h1>
           </motion.div>
 
@@ -84,8 +84,8 @@ export default function Hero() {
           >
             {/* Description */}
             <motion.p className="hero-description" variants={itemVariants}>
-              Software Engineer at <strong>LANE Trailer Mfg.</strong> and Senior Computer Science student
-              at Iowa State University. Dean&apos;s List Scholar every semester.
+              Software Engineer and Technology Team Lead focused on building modern web applications,
+              mobile apps, backend systems, APIs, and digital products.
             </motion.p>
 
             {/* CTAs */}
@@ -98,7 +98,7 @@ export default function Hero() {
                 Contact Me
               </a>
               <a
-                href="https://www.linkedin.com/in/koushik-shaganti"
+                href="https://www.linkedin.com/in/shani-mishra-28838b25a/"
                 className="hero-btn-secondary hover-target"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -107,7 +107,7 @@ export default function Hero() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/koushik1133"
+                href="https://github.com/ShaniMishra9695"
                 className="hero-btn-secondary hover-target"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -92,7 +92,7 @@ export default function Contact() {
             <div className="contact-cards">
               {/* Email Card */}
               <motion.a 
-                href="mailto:koushik9924@gmail.com" 
+                href="mailto:shanimishra284@gmail.com" 
                 className="hover-target contact-info-card"
                 variants={itemVariants}
                 whileHover={{ x: 4 }}
@@ -102,7 +102,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-info-text">
                   <span className="contact-info-label">Email</span>
-                  <span className="contact-info-value">koushik9924@gmail.com</span>
+                  <span className="contact-info-value">shanimishra284@gmail.com</span>
                 </div>
               </motion.a>
 
@@ -119,14 +119,14 @@ export default function Contact() {
                 </div>
                 <div className="contact-info-text">
                   <span className="contact-info-label">Location</span>
-                  <span className="contact-info-value">Ames, IA</span>
+                  <span className="contact-info-value">Virar, Maharashtra, India</span>
                 </div>
               </motion.div>
 
               {/* Social Links */}
               <div className="contact-social-grid">
                 <motion.a 
-                  href="https://github.com/koushik1133" 
+                  href="https://github.com/ShaniMishra9695" 
                   target="_blank" 
                   rel="noreferrer"
                   className="hover-target contact-info-card contact-social-card"
@@ -140,7 +140,7 @@ export default function Contact() {
                 </motion.a>
 
                 <motion.a 
-                  href="https://www.linkedin.com/in/koushikgoudshaganti/" 
+                  href="https://www.linkedin.com/in/shani-mishra-28838b25a/" 
                   target="_blank" 
                   rel="noreferrer"
                   className="hover-target contact-info-card contact-social-card"

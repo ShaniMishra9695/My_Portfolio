@@ -521,7 +521,7 @@ export default function Footer() {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 marginBottom: "0.75rem",
-              }}>Koushik</div>
+              }}>Shani</div>
               <p style={{ fontSize: "0.85rem", color: isDark ? "#94a3b8" : "#475569", lineHeight: 1.7, maxWidth: "220px" }}>
                 Building intelligent systems at the intersection of AI & software engineering.
               </p>
@@ -549,10 +549,9 @@ export default function Footer() {
               <h4 style={{ fontSize: "0.75rem", letterSpacing: "0.1em", textTransform: "uppercase",
                 color: "#64748b", marginBottom: "1rem" }}>Connect</h4>
               {[
-                { label: "GitHub", href: "https://github.com/koushik1133", icon: "fab fa-github" },
-                { label: "LinkedIn", href: "https://linkedin.com/in/koushik-shaganti", icon: "fab fa-linkedin" },
-                { label: "Twitter / X", href: "https://x.com/Koushik992004", icon: "fab fa-x-twitter" },
-                { label: "Email", href: "mailto:koushik9924@gmail.com", icon: "fas fa-envelope" },
+                { label: "GitHub", href: "https://github.com/ShaniMishra9695", icon: "fab fa-github" },
+                { label: "LinkedIn", href: "https://linkedin.com/in/shani-mishra-28838b25a/", icon: "fab fa-linkedin" },
+                { label: "Email", href: "mailto:shanimishra284@gmail.com", icon: "fas fa-envelope" },
               ].map(item => (
                 <div key={item.label} style={{ marginBottom: "0.55rem" }}>
                   <a href={item.href} target="_blank" rel="noopener noreferrer" style={{
@@ -598,7 +597,7 @@ export default function Footer() {
             gap: "0.5rem",
           }}>
             <p style={{ fontSize: "0.8rem", color: isDark ? "#475569" : "#64748b" }}>
-              © {new Date().getFullYear()} Koushik Goud Shaganti — All Rights Reserved.
+              © {new Date().getFullYear()} Shani Mishra — All Rights Reserved.
             </p>
 
           </div>

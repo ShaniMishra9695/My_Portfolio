@@ -28,7 +28,7 @@ export default function Header() {
           {/* Logo */}
           <div className="logo">
             <Link href="/">
-              <span className="logo-gradient">Koushik</span>
+              <span className="logo-gradient">Shani</span>
             </Link>
           </div>
 
