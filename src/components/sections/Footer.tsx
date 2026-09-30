@@ -1,15 +1,12 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
-
-
-/* ── unique SVG id generator (avoids gradient ID collisions) ── */
-let _carId = 0;
+import React, { useEffect, useId, useState } from "react";
 
 /* ── Car SVG (sleek side-view) with animated lights ── */
 /* ── Car SVG (sleek side-view) with animated lights ── */
 function CarSVG({ color = "#e53e3e", flip = false, isDark = true }: { color?: string; flip?: boolean; isDark?: boolean }) {
-  const id = useRef(`car${++_carId}`).current;
+  // useId is stable across server rendering and client hydration.
+  const id = useId();
   return (
     <svg
       viewBox="0 0 220 64"
