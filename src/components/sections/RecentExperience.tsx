@@ -26,18 +26,18 @@ export default function RecentExperience() {
           <div className="exp-content-wrapper">
             <div className="exp-header">
               <div>
-                <h3 className="exp-title">Software Engineer -- AI Systems and Automation</h3>
-                <p className="exp-company">LANE Trailer Mfg. • IA, USA</p>
+                <h3 className="exp-title">Junior Software Engineer &amp; Team Lead</h3>
+                <p className="exp-company">Gharwale.com • Virar, Maharashtra, India</p>
               </div>
-              <div className="exp-date">Jan 2026 — Present</div>
+              <div className="exp-date">July 2025 — Present</div>
             </div>
             <p className="exp-description">
-              Leading the development of highly scalable full-stack applications and deploying autonomous AI agents to transform enterprise operations. I architect robust systems that integrate complex business logic with modern tech stacks.
+              Developing and deploying web and mobile applications, backend services, APIs, and database-driven systems while coordinating technical delivery across the software team.
             </p>
             <div className="featured-tags">
               <span className="tag">Full-Stack</span>
-              <span className="tag">AI Agents</span>
-              <span className="tag">Enterprise Architecture</span>
+              <span className="tag">React Native</span>
+              <span className="tag">Team Leadership</span>
             </div>
           </div>
         </motion.div>

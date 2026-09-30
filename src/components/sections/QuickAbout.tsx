@@ -17,7 +17,7 @@ export default function QuickAbout() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="quick-about-heading">
-              Engineering <span className="highlight-text">Enterprise AI</span> & Full-Stack Systems.
+              Building <span className="highlight-text">Scalable Digital Products</span> for Real-World Impact.
             </h2>
           </motion.div>
           
@@ -29,7 +29,7 @@ export default function QuickAbout() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="quick-about-text">
-              I am a Senior Computer Science student at Iowa State University and a Software Engineer at LANE Trailer Mfg. I specialize in architecting highly scalable full-stack applications and deploying autonomous AI agents that transform enterprise operations.
+              I’m Shani Mishra, a Software Engineer and Technology Team Lead focused on building modern web applications, mobile apps, backend systems, APIs, and digital products. I transform business ideas into reliable, scalable, and user-focused software.
             </p>
             <Link href="/about" className="btn btn-outline quick-about-btn">
               Read my full story <i className="fas fa-arrow-right"></i>
