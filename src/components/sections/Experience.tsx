@@ -16,7 +16,7 @@ const JOBS = [
     duration: "July 2025 — Present",
     location: "Virar, Maharashtra, India",
     links: [
-      { text: "Live Website", url: "https://gharwale.com" }
+      { text: "Live Website", url: "https://gharwale.in" }
     ],
     keyBullets: [
       "Develop modern React-based web applications and responsive user interfaces for real-world business requirements.",
