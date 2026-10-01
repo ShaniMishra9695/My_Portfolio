@@ -73,37 +73,6 @@ export default function Education() {
               </div>
             </div>
           </motion.div>
-
-          {/* Johnson Grammar School */}
-          <motion.div 
-            className="timeline-item"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.5, type: "spring", bounce: 0.4 }}
-            viewport={{ once: true, margin: "-100px" }}
-          >
-            <div className="timeline-icon" aria-hidden="true">
-               📖
-            </div>
-            <div className="timeline-content">
-              <div className="timeline-header">
-                <div className="company-logo company-logo--bordered" style={{ borderColor: '#2e8b57' }}>
-                  <Image src="/assets/logos/jgs.png" alt="JGS Logo" width={48} height={48} />
-                </div>
-                <div className="education-info">
-                  <h3 className="degree">Continuous Professional Learning</h3>
-                  <h4 className="university-name">Software Engineering</h4>
-                  <span className="duration"><i className="far fa-calendar-alt"></i> Present</span>
-                  <p className="location"><i className="fas fa-map-marker-alt"></i> India</p>
-                </div>
-              </div>
-              <div className="education-description">
-                <p>
-                  Continuously learning and experimenting with modern web, mobile, backend, cloud, and product technologies.
-                </p>
-              </div>
-            </div>
-          </motion.div>
         </div>
       </div>
     </section>
