@@ -65,12 +65,12 @@ Type a question or select a quick action below to get started.`
     // Check if it's a predefined slash command or quick action first
     if (lowercaseText === "/skills" || lowercaseText.includes("skills")) {
       setTimeout(() => {
-        addMessage("assistant", `⚡ **Koushik Goud Shaganti's Tech Arsenal:**
-- **Languages**: Python, JavaScript, TypeScript, Java, SQL, C/C++
-- **Frontend / Web**: React, Next.js, Node.js, Express, Tailwind CSS, HTML5/CSS3
-- **Cloud & DevOps**: AWS, Supabase, Vercel, Docker, Railway, git, CI/CD
-- **Databases**: Supabase, PostgreSQL, MySQL, MongoDB, Pinecone, LanceDB
-- **AI Automation**: Google Gemini & Claude LLM APIs, RAG Pipelines, n8n workflows, LangChain`);
+        addMessage("assistant", `⚡ **Shani Mishra's Tech Arsenal:**
+- **Frontend & Mobile**: React, React Native, Expo, JavaScript, TypeScript, HTML5/CSS3
+- **Backend**: Python, Django, Django REST Framework, Node.js, Express.js, REST APIs
+- **Databases**: PostgreSQL, MongoDB, MySQL, Redis, Firebase
+- **Cloud & DevOps**: AWS, S3, Docker, Dokku, Git, CI/CD
+- **Commerce & UI**: Shopify, Liquid, Web Pixels, responsive UI, UI/UX implementation`);
         setIsLoading(false);
       }, 500);
       return;
@@ -78,14 +78,15 @@ Type a question or select a quick action below to get started.`
 
     if (lowercaseText === "/projects" || lowercaseText.includes("best project") || lowercaseText.includes("project")) {
       setTimeout(() => {
-        addMessage("assistant", `🚀 **Koushik's Featured Project: Jarvis — Business OS**
-Jarvis is an AI-powered operating system consolidating 8+ business tools. It features multi-LLM routing, RAG knowledge layers, a domain-aware website builder, and natural language to SQL processing. Built using Next.js, Supabase, Pinecone, and multiple hosted LLMs.
+        addMessage("assistant", `🚀 **Shani's Featured Projects**
+Shani builds live real-estate and business platforms used for property discovery, sales operations, CRM, telecalling, and customer workflows.
 
 Other major projects include:
-- **Doctor Agent** - Voice intake triage assistant (Next.js 15, Groq, Whisper, RAG)
-- **NexusOS** - Wearable/Mobile AI system with cross-device context memory
-- **OpenClaw** - Local command center bot on personal hardware
-- **Mekk** - Autonomous exploration robot using YOLOv8, OpenCV, and Raspberry Pi`);
+- **InhouseCaller** - Live internal CRM and telecalling platform for Gharwale.com
+- **Gharwale.com App** - Live real-estate mobile app available on Google Play
+- **Gharwale.in** - Live property listing and discovery platform
+- **TrueSpace Realty CRM** - Live internal real-estate sales and customer management platform
+- **ClotheStore** - Virtual clothing try-on web application using React, Python, MongoDB, and AWS S3`);
         setIsLoading(false);
       }, 500);
       return;
@@ -94,10 +95,10 @@ Other major projects include:
     if (lowercaseText === "/hire" || lowercaseText.includes("why hire") || lowercaseText.includes("hire")) {
       setTimeout(() => {
         addMessage("assistant", `💼 **Why Hire Shani Mishra?**
-1. **Proven Enterprise Results**: Deployed a real-time production system from scratch for LANE Trailer Mfg, moving build units across 7 production phases via real-time drag-and-drop Kanban.
-2. **Full-Stack Competency**: Strong development credentials across Next.js, React, Node.js, Spring Boot, and PostgreSQL.
-3. **AI Automation Pioneer**: Experience building custom n8n systems, multi-LLM routing, RAG agents, and email automation.
-4. **Academics**: BS in Computer Science (Senior, Graduating May 2026) at Iowa State University. 10/10 ICSE/IB GPA, 94.9% College Grade.`);
+1. **Production experience**: Builds and maintains live internal platforms for real-estate sales, CRM, telecalling, and operations.
+2. **Full-stack delivery**: Works across React, React Native, Node.js, Express.js, Python, Django, databases, APIs, and AWS.
+3. **End-to-end ownership**: Handles architecture, deployment, CI/CD, cloud storage, debugging, and business requirements.
+4. **Real-estate expertise**: Has delivered property discovery apps, sales CRMs, telecalling systems, and multiple real-estate websites.`);
         setIsLoading(false);
       }, 500);
       return;
@@ -106,8 +107,8 @@ Other major projects include:
     if (lowercaseText === "/contact" || lowercaseText.includes("contact")) {
       setTimeout(() => {
         addMessage("assistant", `📞 **Connect with Shani:**
-- **Email**: shani.mishra@example.com
-- **Location**: Ames, IA
+ - **Email**: shanimishra284@gmail.com
+ - **Location**: Virar, Maharashtra, India
 - **GitHub**: github.com/ShaniMishra9695
 - **LinkedIn**: linkedin.com/in/shani-mishra-28838b25a
 
@@ -122,9 +123,9 @@ Feel free to send a message via the form at the bottom of the page or reach out 
         addMessage("assistant", `Available commands:
 - \`/skills\` - List technical skills
 - \`/projects\` - Show featured projects
-- \`/hire\` - View Koushik's value propositions
+ - \`/hire\` - View Shani's value propositions
 - \`/contact\` - Display contact details
-- Or just type a question like "Where does Koushik go to school?" or "Tell me about LANE Trailer Mfg co-op!"`);
+ - Or ask about Shani's experience, projects, skills, or availability.`);
         setIsLoading(false);
       }, 500);
       return;
@@ -269,7 +270,7 @@ Feel free to send a message via the form at the bottom of the page or reach out 
 
           {/* Connection Shortcuts Panel */}
           <div className="chat-connect-panel">
-            <div className="chat-connect-title">Connect with Koushik</div>
+            <div className="chat-connect-title">Connect with Shani</div>
             <div className="chat-connect-grid">
               <a href="https://drive.google.com/file/d/1lLITzaQICOw54E92fvjqcO44Rbk6hy-M/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">RESUME</a>
               <a href="https://www.linkedin.com/in/shani-mishra-28838b25a/" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">LINKEDIN</a>
