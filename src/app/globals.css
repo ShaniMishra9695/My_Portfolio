@@ -4453,10 +4453,13 @@ body.dark-theme #themeToggle .fa-sun {
 
 .chat-quick-actions {
   display: flex;
+  flex: 0 0 auto;
   gap: 0.5rem;
   padding: 0.75rem 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   overflow-x: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
   white-space: nowrap;
 }
 
@@ -4465,6 +4468,7 @@ body.dark-theme #themeToggle .fa-sun {
 }
 
 .quick-action-pill {
+  flex: 0 0 auto;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
   color: #a1a1aa;
@@ -4484,6 +4488,7 @@ body.dark-theme #themeToggle .fa-sun {
 }
 
 .chat-connect-panel {
+  flex: 0 0 auto;
   padding: 0.75rem 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   background: rgba(0, 0, 0, 0.1);
@@ -4528,6 +4533,7 @@ body.dark-theme #themeToggle .fa-sun {
 }
 
 .chat-input-bar {
+  flex: 0 0 auto;
   padding: 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   display: flex;

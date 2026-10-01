@@ -523,7 +523,7 @@ export default function Footer() {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 marginBottom: "0.75rem",
-              }}>Shani</div>
+              }}>Shani Mishra</div>
               <p style={{ fontSize: "0.85rem", color: isDark ? "#94a3b8" : "#475569", lineHeight: 1.7, maxWidth: "220px" }}>
                 Building intelligent systems at the intersection of AI & software engineering.
               </p>

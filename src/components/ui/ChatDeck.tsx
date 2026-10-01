@@ -219,7 +219,7 @@ Feel free to send a message via the form at the bottom of the page or reach out 
             {/* Header */}
           <div className="chat-header">
             <div className="chat-header-info">
-              <div className="chat-header-title">KOUSHIK-AGENT-DECK</div>
+              <div className="chat-header-title">Shani-AGENT-DECK</div>
               <div className="chat-status">
                 <span className="chat-status-dot"></span>
                 <span>SYSTEM ONLINE</span>
