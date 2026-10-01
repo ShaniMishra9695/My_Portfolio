@@ -163,15 +163,16 @@ const PROJECTS = [
     icon: "fas fa-city",
   },
   {
-    id: "arguvista",
+    id: "swastik-residency",
     category: "sde",
-    title: "ArguVista Analyzer",
-    description: "Distributed AI inference tool using Workers AI. Sub-30ms global latency with KV-based conversation memory served from Cloudflare's edge network.",
-    tags: ["Cloudflare", "Llama", "KV"],
+    title: "Swastik Residency",
+    description: "Real-estate website for Swastik Residency, designed to showcase the residential project, present key property information, and help prospective buyers connect with the sales team.",
+    tags: ["Real Estate", "Landing Page", "Responsive UI", "Web Development"],
     links: [
-      { text: "GitHub", url: "https://github.com/koushik1133/ArguVista-Cloudflare" }
+      { text: "Live Website", url: "https://swastikresidency.com/" },
+      { text: "GitHub", url: "https://github.com/ShaniMishra9695/Swastik_Residency" }
     ],
-    icon: "fas fa-cloud",
+    icon: "fas fa-building",
   },
   {
     id: "cybersecurity",
