@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useId, useState } from "react";
+import { usePathname } from "next/navigation";
 
 /* ── Car SVG (sleek side-view) with animated lights ── */
 /* ── Car SVG (sleek side-view) with animated lights ── */
@@ -346,6 +347,7 @@ function AnimatedCar({
 /* ──────────────────────────────────────── MAIN FOOTER ── */
 export default function Footer() {
   const [isDark, setIsDark] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const check = () => setIsDark(document.documentElement.classList.contains("dark-theme") ||
@@ -533,7 +535,7 @@ export default function Footer() {
                 color: "#64748b", marginBottom: "1rem" }}>Navigation</h4>
               {["Home","About","Experience","Projects","Skills","Contact"].map(link => (
                 <div key={link} style={{ marginBottom: "0.5rem" }}>
-                  <a href={`#${link.toLowerCase()}`} style={{
+                  <a href={`${pathname === "/" ? "" : "/"}#${link.toLowerCase()}`} style={{
                     color: isDark ? "#94a3b8" : "#475569", textDecoration: "none", fontSize: "0.9rem",
                     transition: "color 0.2s",
                   }}
