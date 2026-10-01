@@ -34,7 +34,7 @@ const JOBS = [
   {
     id: "qilo",
     icon: "💻",
-    logo: "/assets/logos/trailer_parts.png",
+    logo: "/assets/logos/qilo.png",
     logoAlt: "QILO Digital Services",
     title: "Junior Software Engineer Intern",
     company: "QILO Digital Services",
@@ -56,7 +56,7 @@ const JOBS = [
   {
     id: "cloud-counselage",
     icon: "🤖",
-    logo: "/assets/logos/restaurant.png",
+    logo: "/assets/logos/cloud.png",
     logoAlt: "Cloud Counselage Pvt. Ltd.",
     title: "React Developer Intern",
     company: "Cloud Counselage Pvt. Ltd.",
