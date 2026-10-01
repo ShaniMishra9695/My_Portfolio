@@ -5,6 +5,33 @@ import { motion } from "framer-motion";
 
 const PROJECTS = [
   {
+    id: "inhousecaller",
+    category: "sde",
+    title: "InhouseCaller — CRM & Telecalling Platform",
+    description: "Production-grade CRM and telecalling platform for Gharwale.com, used by 80+ users to manage 300,000+ leads and 400,000+ operational records. Includes lead and campaign management, round-robin assignment, calling workflows, follow-ups, role-based access, location tracking, notifications, WhatsApp activity monitoring, and a React Native telecaller app.",
+    tags: ["Django", "DRF", "React Native", "Expo", "PostgreSQL", "Celery", "Twilio", "AWS S3", "Docker", "CI/CD"],
+    links: [],
+    icon: "fas fa-users-cog",
+  },
+  {
+    id: "gharwale-mobile",
+    category: "sde",
+    title: "Gharwale.com Mobile App",
+    description: "Cross-platform real-estate mobile application built with React Native and Expo. Provides authentication, protected sessions, location-based property discovery, detailed property listings, reusable APIs and hooks, and production deployment through Expo Application Services and the Google Play Store.",
+    tags: ["React Native", "Expo", "JavaScript", "JWT", "Node.js", "Express.js", "MongoDB", "AsyncStorage"],
+    links: [],
+    icon: "fas fa-house-user",
+  },
+  {
+    id: "linkedin-clone",
+    category: "sde",
+    title: "LinkedIn Clone",
+    description: "LinkedIn-inspired social networking application developed during an internship at Cloud Counselage Pvt. Ltd. Features user authentication, profile creation, real-time posts, responsive UI, state management, and Firebase-powered database, authentication, and cloud storage services.",
+    tags: ["React.js", "Firebase", "Authentication", "Cloud Storage", "Real-time Database", "Responsive UI"],
+    links: [],
+    icon: "fab fa-linkedin",
+  },
+  {
     id: "kernelhub",
     category: "sde",
     title: "KernelHub — End-to-End Business OS",
