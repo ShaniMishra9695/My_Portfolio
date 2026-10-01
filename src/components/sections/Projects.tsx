@@ -8,18 +8,21 @@ const PROJECTS = [
     id: "inhousecaller",
     category: "sde",
     title: "InhouseCaller — CRM & Telecalling Platform",
-    description: "Production-grade CRM and telecalling platform for Gharwale.com, used by 80+ users to manage 300,000+ leads and 400,000+ operational records. Includes lead and campaign management, round-robin assignment, calling workflows, follow-ups, role-based access, location tracking, notifications, WhatsApp activity monitoring, and a React Native telecaller app.",
+    description: "Live internal production CRM and telecalling platform for Gharwale.com, used by 80+ users to manage 300,000+ leads and 400,000+ operational records. Includes lead and campaign management, round-robin assignment, calling workflows, follow-ups, role-based access, location tracking, notifications, WhatsApp activity monitoring, and a React Native telecaller app.",
     tags: ["Django", "DRF", "React Native", "Expo", "PostgreSQL", "Celery", "Twilio", "AWS S3", "Docker", "CI/CD"],
     links: [],
+    status: "live-internal",
     icon: "fas fa-users-cog",
   },
   {
     id: "gharwale-mobile",
     category: "sde",
     title: "Gharwale.com Mobile App",
-    description: "Cross-platform real-estate mobile application built with React Native and Expo. Provides authentication, protected sessions, location-based property discovery, detailed property listings, reusable APIs and hooks, and production deployment through Expo Application Services and the Google Play Store.",
+    description: "Live cross-platform real-estate mobile application built with React Native and Expo. Provides authentication, protected sessions, location-based property discovery, detailed property listings, reusable APIs and hooks, and production deployment through Expo Application Services and the Google Play Store.",
     tags: ["React Native", "Expo", "JavaScript", "JWT", "Node.js", "Express.js", "MongoDB", "AsyncStorage"],
-    links: [],
+    links: [
+      { text: "Google Play Store", url: "https://play.google.com/store/apps/details?id=com.gharwale.mobile&pcampaignid=web_share" }
+    ],
     icon: "fas fa-house-user",
   },
   {
@@ -28,7 +31,10 @@ const PROJECTS = [
     title: "LinkedIn Clone",
     description: "LinkedIn-inspired social networking application developed during an internship at Cloud Counselage Pvt. Ltd. Features user authentication, profile creation, real-time posts, responsive UI, state management, and Firebase-powered database, authentication, and cloud storage services.",
     tags: ["React.js", "Firebase", "Authentication", "Cloud Storage", "Real-time Database", "Responsive UI"],
-    links: [],
+    links: [
+      { text: "GitHub", url: "https://github.com/ShaniMishra9695/LinkdIn-clone" }
+    ],
+    status: "live-production",
     icon: "fab fa-linkedin",
   },
   {
@@ -311,10 +317,10 @@ export default function Projects() {
                       ) : (
                         <span
                           className="project-link project-link--disabled"
-                          aria-label="Coming soon"
+                          aria-label={project.status === "live-internal" ? "Live internal production app" : project.status === "live-production" ? "Live production project" : "Coming soon"}
                         >
-                          <i className="fas fa-clock" aria-hidden="true" />{" "}
-                          Coming Soon
+                          <i className={project.status === "live-internal" || project.status === "live-production" ? "fas fa-circle" : "fas fa-clock"} aria-hidden="true" />{" "}
+                          {project.status === "live-internal" ? "Live Internal Production" : project.status === "live-production" ? "Live Production" : "Coming Soon"}
                         </span>
                       )}
                     </div>
