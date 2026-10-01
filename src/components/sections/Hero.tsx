@@ -127,17 +127,17 @@ export default function Hero() {
           transition={{ delay: 1.1, duration: 0.6 }}
         >
           <div className="stat">
-            <span className="stat-number">1+</span>
+            <span className="stat-number">2+</span>
             <span className="stat-label">Years Experience</span>
           </div>
           <div className="stat-divider" />
           <div className="stat">
-            <span className="stat-number">9+</span>
+            <span className="stat-number">23+</span>
             <span className="stat-label">Projects Built</span>
           </div>
           <div className="stat-divider" />
           <div className="stat">
-            <span className="stat-number">6</span>
+            <span className="stat-number">15+</span>
             <span className="stat-label">Certifications</span>
           </div>
         </motion.div>
