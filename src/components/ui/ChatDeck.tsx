@@ -239,7 +239,13 @@ Feel free to send a message via the form at the bottom of the page or reach out 
                   {msg.role === "user" ? "USER_RECRUITER" : msg.role === "assistant" ? "SYSTEM_AGENT" : "SYSTEM_WARN"}
                 </div>
                 <div style={{ whiteSpace: "pre-wrap" }}>
-                  {msg.content}
+                  {msg.content.replace(/`/g, "").split(/(\*\*.*?\*\*)/g).map((part, index) =>
+                    part.startsWith("**") && part.endsWith("**") ? (
+                      <strong key={index}>{part.slice(2, -2)}</strong>
+                    ) : (
+                      <React.Fragment key={index}>{part}</React.Fragment>
+                    )
+                  )}
                 </div>
               </div>
             ))}
