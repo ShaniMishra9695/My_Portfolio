@@ -28,7 +28,7 @@ export default function Education() {
             <div className="timeline-content">
               <div className="timeline-header">
                 <div className="company-logo company-logo--bordered" style={{ borderColor: '#cc0000' }}>
-                  <Image src="/assets/logos/isu.png" alt="ISU Logo" width={48} height={48} />
+                  <Image src="/assets/logos/viva.png" alt="ISU Logo" width={48} height={48} />
                 </div>
                 <div className="education-info">
                   <h3 className="degree">Master of Computer Applications (MCA)</h3>
@@ -57,11 +57,11 @@ export default function Education() {
             <div className="timeline-content">
               <div className="timeline-header">
                 <div className="company-logo company-logo--bordered" style={{ borderColor: '#0056b3' }}>
-                  <Image src="/assets/logos/njc.png" alt="NJC Logo" width={48} height={48} />
+                  <Image src="/assets/logos/veer.png" alt="NJC Logo" width={48} height={48} />
                 </div>
                 <div className="education-info">
                   <h3 className="degree">Bachelor&apos;s Degree in B.Com</h3>
-                  <h4 className="university-name">Purvanchal University, Jaunpur</h4>
+                  <h4 className="university-name">Veer Bahadur Singh Purvanchal University, Jaunpur</h4>
                   <span className="duration"><i className="far fa-calendar-alt"></i> Completed</span>
                   <p className="location"><i className="fas fa-map-marker-alt"></i> Uttar Pradesh, India</p>
                 </div>
