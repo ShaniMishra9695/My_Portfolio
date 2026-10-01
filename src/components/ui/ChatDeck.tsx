@@ -93,7 +93,7 @@ Other major projects include:
 
     if (lowercaseText === "/hire" || lowercaseText.includes("why hire") || lowercaseText.includes("hire")) {
       setTimeout(() => {
-        addMessage("assistant", `💼 **Why Hire Koushik Goud Shaganti?**
+        addMessage("assistant", `💼 **Why Hire Shani Mishra?**
 1. **Proven Enterprise Results**: Deployed a real-time production system from scratch for LANE Trailer Mfg, moving build units across 7 production phases via real-time drag-and-drop Kanban.
 2. **Full-Stack Competency**: Strong development credentials across Next.js, React, Node.js, Spring Boot, and PostgreSQL.
 3. **AI Automation Pioneer**: Experience building custom n8n systems, multi-LLM routing, RAG agents, and email automation.
@@ -105,11 +105,11 @@ Other major projects include:
 
     if (lowercaseText === "/contact" || lowercaseText.includes("contact")) {
       setTimeout(() => {
-        addMessage("assistant", `📞 **Connect with Koushik:**
-- **Email**: koushik9924@gmail.com
+        addMessage("assistant", `📞 **Connect with Shani:**
+- **Email**: shani.mishra@example.com
 - **Location**: Ames, IA
-- **GitHub**: github.com/koushik1133
-- **LinkedIn**: linkedin.com/in/koushik-shaganti
+- **GitHub**: github.com/ShaniMishra9695
+- **LinkedIn**: linkedin.com/in/shani-mishra-28838b25a
 
 Feel free to send a message via the form at the bottom of the page or reach out directly!`);
         setIsLoading(false);
