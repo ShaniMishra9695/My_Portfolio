@@ -86,6 +86,17 @@ const PROJECTS = [
     icon: "fas fa-vihara",
   },
   {
+    id: "digital-bombay",
+    category: "sde",
+    title: "The Digital Bombay",
+    description: "Modern digital services website for The Digital Bombay, covering digital marketing, web design and development, multimedia graphics design, and mobile app development. Services include SEO, WhatsApp and social media marketing, PPC, analytics, lead generation, static and dynamic websites, custom development, UI/UX, branding, commercial videos, Android and iOS apps, maintenance, and QA.",
+    tags: ["Digital Marketing", "SEO", "PPC", "Social Media", "Web Development", "UI/UX", "Graphic Design", "Mobile Apps", "Analytics"],
+    links: [
+      { text: "Live Website", url: "https://thedigitalbombay.com/" }
+    ],
+    icon: "fas fa-globe",
+  },
+  {
     id: "openclaw",
     category: "dsml",
     title: "OpenClaw Command Center",
@@ -129,15 +140,15 @@ const PROJECTS = [
     icon: "fas fa-envelope-open-text",
   },
   {
-    id: "donkeykong",
+    id: "clothe-store",
     category: "sde",
-    title: "Donkey Kong Multiplayer",
-    description: "Backend for real-time multiplayer gaming using WebSockets. SQL/Hibernate models for low-latency matchmaking and state sync.",
-    tags: ["Spring Boot", "WebSocket", "Hibernate"],
+    title: "ClotheStore — Virtual Try-On Platform",
+    description: "College project web application developed for a client, enabling users to select and upload clothing images and preview how the clothing fits on their body in real time, similar to a virtual try-on experience.",
+    tags: ["React", "Python", "MongoDB", "AWS S3", "Virtual Try-On", "Image Upload"],
     links: [
-      { text: "GitHub", url: "https://github.com/koushik1133/DonkeyKong" }
+      { text: "GitHub", url: "https://github.com/ShaniMishra9695/ClotheStore" }
     ],
-    icon: "fas fa-gamepad",
+    icon: "fas fa-tshirt",
   },
   {
     id: "melodify",
