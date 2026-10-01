@@ -35,12 +35,8 @@ const SKILLS_DATA = [
     icon: "fas fa-database",
     skills: [
       { name: "PostgreSQL", level: "proficient", icon: "fas fa-database" },
-      { name: "Aurora DSQL", level: "intermediate", icon: "fas fa-database" },
-      { name: "DynamoDB", level: "intermediate", icon: "fas fa-database" },
       { name: "MySQL", level: "proficient", icon: "fas fa-database" },
       { name: "MongoDB", level: "intermediate", icon: "fas fa-leaf" },
-      { name: "Pinecone", level: "intermediate", icon: "fas fa-layer-group" },
-      { name: "LanceDB", level: "familiar", icon: "fas fa-database" },
       { name: "Neo4j", level: "exploring", icon: "fas fa-project-diagram" }
     ]
   },
@@ -65,10 +61,8 @@ const SKILLS_DATA = [
       { name: "Groq", level: "proficient", icon: "fas fa-microchip" },
       { name: "RAG Pipelines", level: "proficient", icon: "fas fa-project-diagram" },
       { name: "Prompt Engineering", level: "proficient", icon: "fas fa-terminal" },
-      { name: "n8n Workflows", level: "proficient", icon: "fas fa-project-diagram" },
       { name: "LangChain", level: "intermediate", icon: "fas fa-link" },
       { name: "Multi-LLM Routing", level: "intermediate", icon: "fas fa-route" },
-      { name: "YOLOv8", level: "familiar", icon: "fas fa-eye" },
       { name: "OpenCV", level: "familiar", icon: "fas fa-camera" }
     ]
   },
