@@ -25,7 +25,7 @@ const HIGHLIGHTS = [
     title: "TrueSpace Realty CRM",
     subtitle: "Live Internal Real-Estate Sales Platform",
     image: "/images/truespace-crm-generated.png",
-    url: "https://github.com/ShaniMishra9695/Happy-Homes",
+    url: "#",
   },
 ];
 
