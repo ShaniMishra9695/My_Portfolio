@@ -151,15 +151,16 @@ const PROJECTS = [
     icon: "fas fa-tshirt",
   },
   {
-    id: "melodify",
+    id: "abhinandan-lodha",
     category: "sde",
-    title: "Melodify Platform",
-    description: "MERN-stack application with artist microservices, metadata management, and dynamic previews integrated via the YouTube API.",
-    tags: ["React", "Node.js", "MongoDB"],
+    title: "Abhinandan Lodha Landing Page",
+    description: "Real-estate landing page for the Abhinandan Lodha sales team, designed to showcase property offerings, communicate project details, and help prospective buyers connect with the sales team.",
+    tags: ["Real Estate", "Landing Page", "Responsive UI", "Web Development"],
     links: [
-      { text: "GitHub", url: "https://github.com/koushik1133/melodify" }
+      { text: "Live Website", url: "https://abhinandanlodhasalesteam.in/index.php" },
+      { text: "GitHub", url: "https://github.com/ShaniMishra9695/Abhinandan_Lodha" }
     ],
-    icon: "fas fa-music",
+    icon: "fas fa-city",
   },
   {
     id: "arguvista",
