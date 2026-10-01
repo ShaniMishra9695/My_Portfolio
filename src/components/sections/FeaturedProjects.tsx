@@ -6,22 +6,22 @@ import { motion } from "framer-motion";
 
 const FEATURED_PROJECTS = [
   {
-    id: "kernelhub",
-    title: "KernelHub",
-    subtitle: "End-to-End AI Business OS",
-    description: "A full-stack AI workspace for developers and teams: chat with RAG over your files, review GitHub repos, run automations on a schedule, and manage production Kanban.",
-    image: "/images/kernelhub.png",
-    link: "https://javis-xtmerz2lha-uc.a.run.app",
-    tags: ["Next.js 15", "Supabase", "Aurora DSQL", "DynamoDB", "Pinecone"]
+    id: "gharwale-mobile",
+    title: "Gharwale.com App",
+    subtitle: "Live on Google Play Store",
+    description: "Cross-platform real-estate mobile application for property discovery, user authentication, protected sessions, location-based search, detailed property listings, and production mobile access.",
+    image: "/assets/logos/app_logo.png",
+    link: "https://play.google.com/store/apps/details?id=com.gharwale.mobile&pcampaignid=web_share",
+    tags: ["React Native", "Expo", "JWT", "Node.js", "Express.js", "MongoDB"]
   },
   {
-    id: "trailer-parts",
-    title: "Trailer Parts Experts",
-    subtitle: "Enterprise B2B E-Commerce",
-    description: "Architected a highly scalable B2B storefront using Shopify Liquid and Storefront API, processing over $2.1M in orders with seamless ERP integration and live shipping calculators.",
-    image: "/images/trailer.png",
-    link: "https://trailerpartsexperts.com",
-    tags: ["Shopify Liquid", "Node.js", "REST APIs", "AWS"]
+    id: "truespace-realty-crm",
+    title: "TrueSpace Realty CRM",
+    subtitle: "Live Internal Real-Estate Sales Platform",
+    description: "Full-stack real-estate CRM for property projects, channel partners, leads, site visits, inquiries, bookings, call history, dashboards, reporting, and sales-team operations.",
+    image: "/assets/logos/gharwale.svg",
+    link: "https://github.com/ShaniMishra9695/Happy-Homes",
+    tags: ["React Native", "Django", "DRF", "PostgreSQL", "Expo"]
   }
 ];
 
