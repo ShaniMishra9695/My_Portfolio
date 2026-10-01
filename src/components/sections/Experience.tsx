@@ -9,7 +9,7 @@ const JOBS = [
   {
     id: "gharwale",
     icon: "🚀",
-    logo: "/assets/logos/lane.png",
+    logo: "/assets/logos/app_logo.png",
     logoAlt: "Gharwale.com",
     title: "Junior Software Engineer & Team Lead",
     company: "Gharwale.com",
