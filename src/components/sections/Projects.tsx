@@ -192,24 +192,6 @@ const PROJECTS = [
     links: [],
     icon: "fas fa-database",
   },
-  {
-    id: "whatsapp",
-    category: "sde",
-    title: "WhatsApp AI Ordering Bot",
-    description: "Chatbot automating restaurant ordering, menu queries, and order tracking. Connected live inventory on Google Sheets with agentic workflows.",
-    tags: ["n8n", "WhatsApp API", "Sheets"],
-    links: [],
-    icon: "fab fa-whatsapp",
-  },
-  {
-    id: "roguelike",
-    category: "sde",
-    title: "Roguelike Dungeon Game",
-    description: "Dungeon crawler with OOP design and file I/O. Multiplayer support using WebSockets for real-time interactions.",
-    tags: ["C/C++", "OOP", "WebSockets"],
-    links: [],
-    icon: "fas fa-dungeon",
-  },
 ];
 
 export default function Projects() {
