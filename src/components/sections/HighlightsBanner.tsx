@@ -7,25 +7,25 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const HIGHLIGHTS = [
   {
-    id: "kernelhub",
-    title: "KernelHub",
-    subtitle: "AI Business OS",
-    image: "/images/kernelhub.png",
-    url: "https://javis-xtmerz2lha-uc.a.run.app",
+    id: "gharwale-app",
+    title: "Gharwale.com App",
+    subtitle: "Live Real-Estate App on Google Play",
+    image: "/images/image.png",
+    url: "https://play.google.com/store/apps/details?id=com.gharwale.mobile&pcampaignid=web_share",
   },
   {
-    id: "trailer",
-    title: "Trailer Parts Experts",
-    subtitle: "Shopify Storefront",
-    image: "/images/trailer.png",
-    url: "https://trailerpartsexperts.com",
-  },
-  {
-    id: "mekk",
-    title: "Mekk Robot",
-    subtitle: "Autonomous AI Exploration",
-    image: "/images/robot.png",
+    id: "inhousecaller",
+    title: "InhouseCaller",
+    subtitle: "Live Internal CRM & Telecalling Platform",
+    image: "/images/1.jpeg",
     url: "#",
+  },
+  {
+    id: "truespace-crm",
+    title: "TrueSpace Realty CRM",
+    subtitle: "Live Internal Real-Estate Sales Platform",
+    image: "/images/prop.jpeg",
+    url: "https://github.com/ShaniMishra9695/Happy-Homes",
   },
 ];
 
@@ -116,7 +116,10 @@ export default function HighlightsBanner() {
                   src={current.image}
                   alt={current.title}
                   fill
-                  style={{ objectFit: "cover", objectPosition: "top" }}
+                  style={{
+                    objectFit: current.id === "gharwale-app" ? "contain" : "cover",
+                    objectPosition: "top",
+                  }}
                   sizes="(max-width: 768px) 100vw, 80vw"
                 />
               </a>
