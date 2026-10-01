@@ -26,6 +26,17 @@ const PROJECTS = [
     icon: "fas fa-house-user",
   },
   {
+    id: "gharwale-web",
+    category: "sde",
+    title: "Gharwale.in Property Platform",
+    description: "Live property listing and discovery platform built for Gharwale.com, enabling users to search, explore, and purchase properties through a responsive web experience with scalable backend services and cloud infrastructure.",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "AWS", "Redis", "Git"],
+    links: [
+      { text: "Live Website", url: "https://gharwale.in/" }
+    ],
+    icon: "fas fa-home",
+  },
+  {
     id: "linkedin-clone",
     category: "sde",
     title: "LinkedIn Clone",

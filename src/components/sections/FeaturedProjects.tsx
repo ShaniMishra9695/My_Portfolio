@@ -15,13 +15,13 @@ const FEATURED_PROJECTS = [
     tags: ["React Native", "Expo", "JWT", "Node.js", "Express.js", "MongoDB"]
   },
   {
-    id: "truespace-realty-crm",
-    title: "TrueSpace Realty CRM",
-    subtitle: "Live Internal Real-Estate Sales Platform",
-    description: "Full-stack real-estate CRM for property projects, channel partners, leads, site visits, inquiries, bookings, call history, dashboards, reporting, and sales-team operations.",
-    image: "/assets/logos/gharwale.svg",
-    link: "https://github.com/ShaniMishra9695/Happy-Homes",
-    tags: ["React Native", "Django", "DRF", "PostgreSQL", "Expo"]
+    id: "gharwale-web",
+    title: "Gharwale.in",
+    subtitle: "Live Property Listing Platform",
+    description: "Live property listing and discovery platform for searching, exploring, and purchasing real estate, built with a scalable React and Node.js backend ecosystem.",
+    image: "/assets/logos/app_logo.png",
+    link: "https://gharwale.in/",
+    tags: ["React", "Node.js", "Express.js", "MongoDB", "AWS", "Redis"]
   }
 ];
 
