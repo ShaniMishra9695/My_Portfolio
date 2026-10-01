@@ -201,7 +201,8 @@ export default function Contact() {
                 guest@jooeun:~$ <span className="prompt-text">sudo init contact --form</span>
               </div>
               
-              <form className="terminal-form" action="https://formspree.io/f/xykarwkn" method="POST" onSubmit={handleSubmit}>
+              <form className="terminal-form" action="https://formspree.io/f/mdekjrnn" method="POST" onSubmit={handleSubmit}>
+                <input type="hidden" name="_subject" value="New portfolio inquiry" />
                 <div className="terminal-form-group">
                   <label htmlFor="name" className="terminal-label">NAME:</label>
                   <div className="terminal-input-wrapper">
