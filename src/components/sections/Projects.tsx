@@ -202,7 +202,7 @@ export default function Projects() {
   const touchStartX = useRef<number | null>(null);
 
   const filteredProjects = PROJECTS.filter(
-    (p) => filter === "all" || p.category === filter
+    (p) => p.category !== "dsml" && (filter === "all" || p.category === filter)
   );
 
   const scroll = (direction: "left" | "right") => {
@@ -232,7 +232,6 @@ export default function Projects() {
           {[
             { key: "all", label: "All Projects" },
             { key: "sde", label: "Full-Stack / Web" },
-            { key: "dsml", label: "AI & Data" },
           ].map(({ key, label }) => (
             <button
               key={key}
