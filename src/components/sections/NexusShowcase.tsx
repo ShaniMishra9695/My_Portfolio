@@ -17,22 +17,23 @@ export default function NexusShowcase() {
         >
           <div className="senior-project-image-box">
             <img 
-              src="/astronaut_3d.png" 
-              alt="NexusOS — Ambient Context Agent" 
+              src="/assets/logos/app_logo.png" 
+              alt="Gharwale.com application" 
             />
           </div>
 
           <div className="senior-project-content">
-            <h2 className="senior-project-label">Featured AI Agent Project</h2>
-            <h3 className="senior-project-title">NexusOS — Ambient Context Agent</h3>
+            <h2 className="senior-project-label">Featured Gharwale Project</h2>
+            <h3 className="senior-project-title">Gharwale.com Application</h3>
             <p className="senior-project-desc">
-              A proactive cross-device AI operating system that maintains context across wearables, mobile, desktop, and vehicles (OBD-II diagnostics). Built with a hierarchical memory layer and custom voice interfaces to deliver proactive, ambient intelligence.
+              A live cross-platform real-estate application that helps property buyers, owners, and agents discover and manage listings. The app includes secure authentication, location-based property discovery, detailed property information, reusable APIs, and production deployment through the Google Play Store.
             </p>
             <div className="featured-tags">
-              <span className="tag">Multi-Agent</span>
-              <span className="tag">Vector Memory</span>
-              <span className="tag">Speech AI</span>
-              <span className="tag">IoT (OBD-II)</span>
+              <span className="tag">React Native</span>
+              <span className="tag">Expo</span>
+              <span className="tag">JWT</span>
+              <span className="tag">Node.js</span>
+              <span className="tag">MongoDB</span>
             </div>
             
             <Link href="/projects" className="btn btn-primary mt-4">
