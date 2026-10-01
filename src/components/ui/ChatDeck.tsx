@@ -32,6 +32,17 @@ Type a question or select a quick action below to get started.`
   }, [messages, isLoading]);
 
   useEffect(() => {
+    if (!isOpen) return;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [isOpen]);
+
+  useEffect(() => {
     const handleToggle = () => setIsOpen((prev) => !prev);
     const handleOpen = () => setIsOpen(true);
     window.addEventListener("toggle-chat-deck", handleToggle);
@@ -200,7 +211,11 @@ Feel free to send a message via the form at the bottom of the page or reach out 
       {isOpen && (
         <>
           <div className="chat-deck-overlay" onClick={() => setIsOpen(false)} />
-          <div className="chat-deck-container">
+          <div
+            className="chat-deck-container"
+            onWheel={(event) => event.stopPropagation()}
+            onTouchMove={(event) => event.stopPropagation()}
+          >
             {/* Header */}
           <div className="chat-header">
             <div className="chat-header-info">
