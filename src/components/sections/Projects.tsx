@@ -38,16 +38,16 @@ const PROJECTS = [
     icon: "fab fa-linkedin",
   },
   {
-    id: "kernelhub",
+    id: "truespace-realty-crm",
     category: "sde",
-    title: "KernelHub — End-to-End Business OS",
-    description: "A full-stack AI workspace: chat with RAG over your files, review GitHub repos, run automations, manage production Kanban, and generate landing pages.",
-    tags: ["Next.js 15", "Supabase", "Aurora DSQL", "DynamoDB", "Pinecone", "Groq", "Cloud Run"],
+    title: "TrueSpace Realty CRM",
+    description: "Full-stack real-estate sales and customer relationship management platform for managing property projects, channel partners, customer leads, site visits, inquiries, bookings, call history, and sales-team operations. Includes role-based access, multi-project workflows, dashboards, exports, privacy controls, and mobile notifications.",
+    tags: ["React Native", "Expo", "Django", "DRF", "PostgreSQL", "AWS S3", "Excel Import/Export", "Expo Notifications", "Dokku"],
     links: [
-      { text: "Live App", url: "https://javis-xtmerz2lha-uc.a.run.app" },
-      { text: "GitHub", url: "https://github.com/koushik1133/build-chat-task-javis" }
+      { text: "GitHub", url: "https://github.com/ShaniMishra9695/Happy-Homes" }
     ],
-    icon: "fas fa-laptop-code",
+    status: "live-internal",
+    icon: "fas fa-building",
   },
   {
     id: "mekk",
@@ -321,6 +321,14 @@ export default function Projects() {
                         >
                           <i className={project.status === "live-internal" || project.status === "live-production" ? "fas fa-circle" : "fas fa-clock"} aria-hidden="true" />{" "}
                           {project.status === "live-internal" ? "Live Internal Production" : project.status === "live-production" ? "Live Production" : "Coming Soon"}
+                        </span>
+                      )}
+                      {project.links && project.links.length > 0 && project.status === "live-internal" && (
+                        <span
+                          className="project-link project-link--disabled"
+                          aria-label="Live internal production app"
+                        >
+                          <i className="fas fa-circle" aria-hidden="true" /> Live Internal Production
                         </span>
                       )}
                     </div>
