@@ -17,14 +17,14 @@ const HIGHLIGHTS = [
     id: "inhousecaller",
     title: "InhouseCaller",
     subtitle: "Live Internal CRM & Telecalling Platform",
-    image: "/images/1.jpeg",
+    image: "/images/inhousecaller-generated.png",
     url: "#",
   },
   {
     id: "truespace-crm",
     title: "TrueSpace Realty CRM",
     subtitle: "Live Internal Real-Estate Sales Platform",
-    image: "/images/prop.jpeg",
+    image: "/images/truespace-crm-generated.png",
     url: "https://github.com/ShaniMishra9695/Happy-Homes",
   },
 ];
