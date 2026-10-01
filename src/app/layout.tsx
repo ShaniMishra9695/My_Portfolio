@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Shani Mishra | Portfolio",
@@ -32,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" dir="ltr" className={`${inter.variable} ${inter.className}`}>
+    <html lang="en" dir="ltr">
       <head>
         {/* Viewport — explicit to prevent iOS zoom edge cases */}
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -53,7 +46,7 @@ export default function RootLayout({
         />
 
       </head>
-      <body className={`light-theme ${inter.className}`}>
+      <body className="light-theme">
 
 
         <SmoothScroll>
