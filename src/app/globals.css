@@ -1691,7 +1691,7 @@ body.dark-theme #themeToggle .fa-sun {
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .senior-project-image-box img {
@@ -1704,6 +1704,33 @@ body.dark-theme #themeToggle .fa-sun {
 .senior-project-image-box:hover img {
     transform: scale(1.03);
 }
+
+.inhousecaller-card-stack {
+    position: relative;
+    width: min(68%, 270px);
+    height: 92%;
+    perspective: 900px;
+}
+
+.inhousecaller-card {
+    position: absolute;
+    inset: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    background: #f8fafc;
+    border-radius: 18px;
+    border: 5px solid rgba(255, 255, 255, 0.92);
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 0.28);
+    animation: none;
+    will-change: transform, opacity;
+}
+
+.inhousecaller-card:nth-child(1) { transform: translateY(0) rotate(-2deg); z-index: 5; }
+.inhousecaller-card:nth-child(2) { transform: translateY(10px) rotate(1deg); z-index: 4; }
+.inhousecaller-card:nth-child(3) { transform: translateY(20px) rotate(-1deg); z-index: 3; }
+.inhousecaller-card:nth-child(4) { transform: translateY(30px) rotate(2deg); z-index: 2; }
+.inhousecaller-card:nth-child(5) { transform: translateY(40px) rotate(-2deg); z-index: 1; }
 
 .senior-project-wrapper.reverse {
     grid-template-columns: 0.8fr 1.2fr;

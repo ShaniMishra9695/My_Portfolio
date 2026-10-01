@@ -1,10 +1,28 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
+const INHOUSECALLER_IMAGES = [
+  "/images/1.jpeg",
+  "/images/2.jpeg",
+  "/images/14.jpeg",
+  "/images/19.jpeg",
+  "/images/21.jpeg",
+];
+
 export default function SeniorProject() {
+  const [activeCard, setActiveCard] = useState(0);
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setActiveCard((current) => (current + 1) % INHOUSECALLER_IMAGES.length);
+    }, 4200);
+
+    return () => window.clearInterval(timer);
+  }, []);
+
   return (
     <section className="senior-project-section">
       <div className="container">
@@ -36,10 +54,35 @@ export default function SeniorProject() {
           </div>
           
           <div className="senior-project-image-box">
-            <img 
-              src="/assets/logos/app_logo.png" 
-              alt="InhouseCaller CRM and telecalling platform" 
-            />
+            <div className="inhousecaller-card-stack" aria-label="InhouseCaller app screenshots">
+              {INHOUSECALLER_IMAGES.map((image, index) => {
+                const position = (index - activeCard + INHOUSECALLER_IMAGES.length) % INHOUSECALLER_IMAGES.length;
+                const isActive = position === 0;
+
+                return (
+                <motion.img
+                  key={image}
+                  src={image}
+                  alt={`InhouseCaller app screen ${index + 1}`}
+                  className="inhousecaller-card"
+                  animate={{
+                    x: position === 0 ? 0 : position * 9,
+                    y: position === 0 ? 0 : position * 13,
+                    scale: 1 - position * 0.045,
+                    rotate: position === 0 ? 0 : position % 2 === 0 ? -1.5 : 1.5,
+                    opacity: position > 3 ? 0 : 1,
+                  }}
+                  transition={{
+                    type: "spring",
+                    stiffness: isActive ? 170 : 125,
+                    damping: 18,
+                    mass: 0.8,
+                  }}
+                  style={{ zIndex: INHOUSECALLER_IMAGES.length - position }}
+                />
+                );
+              })}
+            </div>
           </div>
         </motion.div>
       </div>
