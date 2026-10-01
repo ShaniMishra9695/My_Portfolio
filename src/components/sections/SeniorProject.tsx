@@ -16,16 +16,18 @@ export default function SeniorProject() {
           transition={{ duration: 0.6 }}
         >
           <div className="senior-project-content">
-            <h2 className="senior-project-label">Senior Design Project</h2>
-            <h3 className="senior-project-title">Mekk — Autonomous AI Robot</h3>
+            <h2 className="senior-project-label">Featured Production Project</h2>
+            <h3 className="senior-project-title">InhouseCaller — CRM &amp; Telecalling Platform</h3>
             <p className="senior-project-desc">
-              As the culmination of my Computer Science degree, I engineered an autonomous AI exploration robot built on a custom 3D chassis. The project features YOLOv8n object tracking, ultrasonic sensor fusion for collision avoidance, and local speech controls powered by Whisper.
+              I developed and maintain this live internal production platform for Gharwale.com. InhouseCaller manages 300,000+ leads and 400,000+ operational records through CRM administration, campaign allocation, telecalling workflows, follow-ups, role-based access, location tracking, notifications, WhatsApp activity monitoring, and a React Native mobile app for telecallers.
             </p>
             <div className="featured-tags">
-              <span className="tag">Raspberry Pi</span>
-              <span className="tag">YOLOv8</span>
-              <span className="tag">Whisper</span>
-              <span className="tag">OpenCV</span>
+              <span className="tag">Django</span>
+              <span className="tag">Django REST Framework</span>
+              <span className="tag">React Native</span>
+              <span className="tag">PostgreSQL</span>
+              <span className="tag">Celery</span>
+              <span className="tag">AWS S3</span>
             </div>
             
             <Link href="/projects" className="btn btn-primary mt-4">
@@ -35,8 +37,8 @@ export default function SeniorProject() {
           
           <div className="senior-project-image-box">
             <img 
-              src="/images/robot.jpg" 
-              alt="Mekk — Autonomous AI Robot" 
+              src="/assets/logos/app_logo.png" 
+              alt="InhouseCaller CRM and telecalling platform" 
             />
           </div>
         </motion.div>
