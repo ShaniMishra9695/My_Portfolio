@@ -62,15 +62,28 @@ const PROJECTS = [
     icon: "fas fa-robot",
   },
   {
-    id: "trailer",
+    id: "mangal-murti",
     category: "sde",
-    title: "Trailer Parts Experts",
-    description: "Custom Shopify storefront theme via Liquid, driving a 43% surge in holiday sales and executing technical SEO strategies for regional traffic.",
-    tags: ["Full-Stack", "Shopify", "Liquid"],
+    title: "Mangal Murti Construction",
+    description: "Real-estate construction company landing page designed to present residential projects, highlight amenities, build customer trust, and guide prospective buyers toward property inquiries and site visits.",
+    tags: ["Real Estate", "Landing Page", "Responsive UI", "SEO", "Web Development"],
     links: [
-      { text: "Live Store", url: "https://trailerpartsexperts.com" }
+      { text: "Live Website", url: "https://mangalmurticonstruction.com/" },
+      { text: "GitHub", url: "https://github.com/ShaniMishra9695/Mangal_Murti" }
     ],
-    icon: "fas fa-truck-moving",
+    icon: "fas fa-city",
+  },
+  {
+    id: "urs-villas",
+    category: "sde",
+    title: "URS Villas",
+    description: "Real-estate landing page for URS Villas, presenting the property offering with a polished, responsive interface designed to help prospective buyers explore the project and get in touch.",
+    tags: ["Real Estate", "Landing Page", "Responsive UI", "Web Development"],
+    links: [
+      { text: "Live Website", url: "https://ursvillas.com/" },
+      { text: "GitHub", url: "https://github.com/ShaniMishra9695/URS-VILLA" }
+    ],
+    icon: "fas fa-vihara",
   },
   {
     id: "openclaw",
