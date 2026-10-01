@@ -15,7 +15,7 @@ export default function ChatDeck() {
     {
       id: "initial",
       role: "assistant",
-      content: `Hello! I am Koushik's AI Agent. Ask me anything about Koushik's technical background, projects, work experience, or availability!
+      content: `Hello! I am Shani's AI Agent. Ask me anything about Shani's technical background, projects, work experience, or availability!
 
 Type a question or select a quick action below to get started.`
     }
@@ -187,7 +187,7 @@ Feel free to send a message via the form at the bottom of the page or reach out 
       <button 
         className="chat-trigger-btn hover-target" 
         onClick={() => setIsOpen(!isOpen)}
-        aria-label="Chat with Koushik's AI Agent"
+        aria-label="Chat with Shani's AI Agent"
       >
         <span className="chat-trigger-glow"></span>
         <span className="pulse-dot"></span>
@@ -271,11 +271,10 @@ Feel free to send a message via the form at the bottom of the page or reach out 
           <div className="chat-connect-panel">
             <div className="chat-connect-title">Connect with Koushik</div>
             <div className="chat-connect-grid">
-              <a href="https://vivek-shaganti-portfolio.vercel.app/Vivek%20Goud%20Shaganti%20CV.pdf" download className="chat-connect-link hover-target">RESUME</a>
-              <a href="https://www.linkedin.com/in/koushik-shaganti" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">LINKEDIN</a>
-              <a href="https://github.com/koushik1133" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">GITHUB</a>
-              <a href="https://x.com/Koushik992004/media" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">X / TWITTER</a>
-              <a href="mailto:koushik9924@gmail.com" className="chat-connect-link hover-target">EMAIL</a>
+              <a href="https://drive.google.com/file/d/1lLITzaQICOw54E92fvjqcO44Rbk6hy-M/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">RESUME</a>
+              <a href="https://www.linkedin.com/in/shani-mishra-28838b25a/" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">LINKEDIN</a>
+              <a href="https://github.com/ShaniMishra9695" target="_blank" rel="noopener noreferrer" className="chat-connect-link hover-target">GITHUB</a>
+              <a href="mailto:shanimishra284@gmail.com" className="chat-connect-link hover-target">EMAIL</a>
             </div>
           </div>
 
